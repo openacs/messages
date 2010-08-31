@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="messages" locale="es_ES" charset="ISO-8859-1">
+
+  <msg key="add">Agregar</msg>
+  <msg key="add_attachment">Adjuntar archivo</msg>
+  <msg key="as_read">Marcar como leido</msg>
+  <msg key="as_unread">Marcar como no leído</msg>
+  <msg key="at">de</msg>
+  <msg key="attachments">Archivos adjuntos</msg>
+  <msg key="back">&amp;lt;&amp;lt; Regresar</msg>
+  <msg key="back_folders">Regresar a Carpetas</msg>
+  <msg key="body_empty">¿Deseas enviar este mensaje sin texto?</msg>
+  <msg key="body_mail">%user_name% te ha enviado un mensaje:
+
+-------------------------------------
+
+%subject% 
+
+%msg_content%
+
+-------------------------------------
+
+lo puedes ver en el siguiente enlace:
+
+http://yourpage.com/%message_url%
+
+</msg>
+  <msg key="cancel">Cancelar</msg>
+  <msg key="close_window">Cerrar Ventana</msg>
+  <msg key="community">Comunidad</msg>
+  <msg key="compose_mail">Redactar Correo</msg>
+  <msg key="configuration">Configuración</msg>
+  <msg key="confirm_send_msg">Tu mensaje ha sido enviado.</msg>
+  <msg key="confirm_trash_empty">Todos los mensajes de la papelera se han suprimido definitivamente</msg>
+  <msg key="create">Crear</msg>
+  <msg key="date">Fecha</msg>
+  <msg key="delete">Borrar</msg>
+  <msg key="delete_confirm">¿Desea continuar?</msg>
+  <msg key="discard">Descartar</msg>
+  <msg key="drafts">Borradores</msg>
+  <msg key="edit_folder">Para editar el nombre, haga click sobre el nombre del folder.</msg>
+  <msg key="edit_name_folder">Editar</msg>
+  <msg key="empty_trash">Vaciar la Papelera ahora</msg>
+  <msg key="folder_create_successfully">El folder se ha creado satisfactoriamente</msg>
+  <msg key="folder_name">Nombre del Folder</msg>
+  <msg key="folder_trash_msg">(los mensajes que se encuentren en la Papelera durante más de 15 días se suprimirán automáticamente)</msg>
+  <msg key="folders">Carpetas</msg>
+  <msg key="folders_created">Carpetas creadas</msg>
+  <msg key="forward">Reenviar</msg>
+  <msg key="from">De</msg>
+  <msg key="has_been_moved_to">La conversación se ha movido a</msg>
+  <msg key="hide_details">Ocultar Detalles</msg>
+  <msg key="important">Importante</msg>
+  <msg key="inbox">Recibidos</msg>
+  <msg key="insert_signature">Insertar firma</msg>
+  <msg key="lt_folder_name_error">El nombre del folder no puede ser mayor a 20 caracteres.</msg>
+  <msg key="max_show_messages">Mensajes por página</msg>
+  <msg key="me">Usuario</msg>
+  <msg key="message">Mensaje</msg>
+  <msg key="message_sent_by">Mensaje enviado por</msg>
+  <msg key="messages">Mensajes</msg>
+  <msg key="more_actions">Más acciones</msg>
+  <msg key="more_msg_moved_to">conversaciones se han movido a</msg>
+  <msg key="more_msg_read">conversaciones se han marcado como leídas.</msg>
+  <msg key="more_msg_unread">conversaciones se han marcado como no leídas.</msg>
+  <msg key="move_to">Mover a</msg>
+  <msg key="msg_cancel">La información se perderá. ¿Desea continuar?</msg>
+  <msg key="msg_continue_empty">Esta acción afectara a %total_messages% conversación(es) en Papelera. ¿Esta seguro de que deseas continuar?</msg>
+  <msg key="msg_delete_folder">La carpeta se elimina, los mensajes se moverán a Recibidos. ¿Está seguro de continuar?</msg>
+  <msg key="msg_has_been_sent">Tu mensaje ha sido enviado.</msg>
+  <msg key="msg_invalid_number">Debe de ingresar número válido en mensajes por folder</msg>
+  <msg key="msg_invalid_user">es un usuario no válido.</msg>
+  <msg key="msg_loading">Cargando</msg>
+  <msg key="msg_read">La conversación se ha marcado como leída.</msg>
+  <msg key="msg_select_msg">Debe de seleccionar al menos un mensaje</msg>
+  <msg key="msg_subject_forward">Rv</msg>
+  <msg key="msg_subject_reply">Re</msg>
+  <msg key="msg_system">Sistema de envío de mensajes: permite enviar mensajes a las personas que pertenecen a este grupo, si deseas enviar mensajes a una persona que pertenece a otro grupo, debeis ir a dicho curso/comunidad y enviar el mensaje desde alli.</msg>
+  <msg key="msg_unread">La conversación se ha marcado como no leída.</msg>
+  <msg key="name_new_folder">Escribir el nombre del nuevo folder</msg>
+  <msg key="new_folder">Nuevo Folder</msg>
+  <msg key="new_folder_name_error">Por favor, escriba el nombre del nuevo folder</msg>
+  <msg key="newer">&amp;lt; Anterior</msg>
+  <msg key="newer_msg">Anterior</msg>
+  <msg key="newest">&amp;lt;&amp;lt; Primera página </msg>
+  <msg key="no">No</msg>
+  <msg key="no_members_found">No se ha encontrado ningún miembro.</msg>
+  <msg key="no_messages_found">Usted no tiene ningún mensaje.</msg>
+  <msg key="no_subject">sin asunto</msg>
+  <msg key="normal">Normal</msg>
+  <msg key="of">De</msg>
+  <msg key="older">Siguiente &amp;gt;</msg>
+  <msg key="older_msg">Posterior</msg>
+  <msg key="oldest">Última página &amp;gt;&amp;gt;</msg>
+  <msg key="other_msg_reply">Usted está respondiendo un mensaje.</msg>
+  <msg key="print">Imprimir</msg>
+  <msg key="range_messages_show">%first_row% -- %last_number% De %total_messages%</msg>
+  <msg key="recipients">Destinatarios</msg>
+  <msg key="recipients_empty">Especifica al menos un destinatario.</msg>
+  <msg key="reply">Responder</msg>
+  <msg key="reply_all">Responder a todos</msg>
+  <msg key="save">Guardados</msg>
+  <msg key="save_info">Guardar</msg>
+  <msg key="save_sent_message">Guardar mensaje enviado</msg>
+  <msg key="search">Buscar</msg>
+  <msg key="send">Enviar</msg>
+  <msg key="send_to_all">Enviar a todos</msg>
+  <msg key="sending">Enviando</msg>
+  <msg key="sent">Enviados</msg>
+  <msg key="show_details">Mostrar detalles</msg>
+  <msg key="signature">Firma</msg>
+  <msg key="subject">Asunto</msg>
+  <msg key="subject_empty">¿Deseas enviar este mensaje sin asunto?</msg>
+  <msg key="subject_mail">%user_name% te ha enviado un mensaje en la comunidad &quot;%community_name%&quot;</msg>
+  <msg key="sucsessful_create_folder">Folder creado satisfactoriamente</msg>
+  <msg key="to">Para</msg>
+  <msg key="to_help">[i] Si conoce el nombre y/o apellidos del usuario al que le envia el mensaje, escríbalo en el campo de texto Para y se le mostrarán aquellos usuarios que coincidan con lo escrito en dicho campo</msg>
+  <msg key="today">Hoy</msg>
+  <msg key="trash">Papelera</msg>
+  <msg key="view_messages">Ver mensajes</msg>
+  <msg key="write_message">Redactar correo</msg>
+  <msg key="yes">Si</msg>
+</message_catalog>

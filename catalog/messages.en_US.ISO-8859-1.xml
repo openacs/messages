@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<message_catalog package_key="messages" locale="en_US" charset="ISO-8859-1">
+
+  <msg key="add">Add</msg>
+  <msg key="add_attachment">Add attachment</msg>
+  <msg key="as_read">Mark as read</msg>
+  <msg key="as_unread">Mark as unread</msg>
+  <msg key="at">At</msg>
+  <msg key="attachments">Attachments</msg>
+  <msg key="back">&lt;&lt; Back</msg>
+  <msg key="back_folders">Back Folders</msg>
+  <msg key="body_empty">Send this message without text in the body?</msg>
+  <msg key="body_mail">%user_name% has sent you a message:
+
+-------------------------------------
+
+%subject%
+
+%msg_content%
+
+-------------------------------------
+
+
+You can see from the following link:
+
+http://yourpage.com/%message_url%</msg>
+  <msg key="cancel">Cancel</msg>
+  <msg key="close_window">Close Window</msg>
+  <msg key="community">Community</msg>
+  <msg key="compose_mail">Compose Mail</msg>
+  <msg key="configuration">Configuration</msg>
+  <msg key="confirm_send_msg">Your message has been sent</msg>
+  <msg key="confirm_trash_empty">All messages in the Trash have been deleted forever</msg>
+  <msg key="create">Create</msg>
+  <msg key="date">Date</msg>
+  <msg key="delete">Delete</msg>
+  <msg key="delete_confirm">Do you want to continue?</msg>
+  <msg key="discard">Discard</msg>
+  <msg key="drafts">Drafts</msg>
+  <msg key="edit_folder">To edit the name click on the name of the folder</msg>
+  <msg key="edit_name_folder">Edit</msg>
+  <msg key="empty_trash">Empty Trash now</msg>
+  <msg key="folder_create_successfully">Folder created successfully</msg>
+  <msg key="folder_name">Folder name</msg>
+  <msg key="folder_trash_msg">(messages that have been in Trash more than 15 days will be automatically deleted)</msg>
+  <msg key="folders">Folders</msg>
+  <msg key="folders_created">Folders created</msg>
+  <msg key="forward">Forward</msg>
+  <msg key="from">From</msg>
+  <msg key="has_been_moved_to">The conversation has been moved to</msg>
+  <msg key="hide_details">Hide details</msg>
+  <msg key="important">Important</msg>
+  <msg key="inbox">Inbox</msg>
+  <msg key="insert_signature">Insert signature</msg>
+  <msg key="lt_folder_name_error">The name of the folder may not be longer than 20 characters</msg>
+  <msg key="max_show_messages">Conversations per page</msg>
+  <msg key="me">me</msg>
+  <msg key="message">Message</msg>
+  <msg key="message_sent_by">Message sent by</msg>
+  <msg key="messages">Messages</msg>
+  <msg key="more_actions">More actions</msg>
+  <msg key="more_msg_moved_to">conversations have been moved to</msg>
+  <msg key="more_msg_read">conversations have been marked as read.</msg>
+  <msg key="more_msg_unread">conversations have been marked as unread.</msg>
+  <msg key="move_to">Move to</msg>
+  <msg key="msg_cancel">The information be lost. Do you want to continue?</msg>
+  <msg key="msg_continue_empty">This action will affect %total_messages% conversation(s) in Trash. Are you sure you want to continue?</msg>
+  <msg key="msg_delete_folder">The folder is deleted, the messages are moved out to receive. Are sure to continue?</msg>
+  <msg key="msg_has_been_sent">Your message has been sent.</msg>
+  <msg key="msg_invalid_number">You must enter valid number in size of folder</msg>
+  <msg key="msg_invalid_user">is an invalid user. </msg>
+  <msg key="msg_loading">Loading</msg>
+  <msg key="msg_read">The conversation has been marked as read.</msg>
+  <msg key="msg_select_msg">You must select at least one message</msg>
+  <msg key="msg_subject_forward">fwd</msg>
+  <msg key="msg_subject_reply">Re</msg>
+  <msg key="msg_system">Messaging system: to send messages to people who belong to this group if you want to send messages to a person belonging to another group, you ought to go to that course/community and send from there.</msg>
+  <msg key="msg_unread">The conversation has been marked as unread.</msg>
+  <msg key="name_new_folder">Write the name of the new Folder</msg>
+  <msg key="new_folder">New Folder</msg>
+  <msg key="new_folder_name_error">Please, write a name of the new folder</msg>
+  <msg key="newer">&lt; Newer</msg>
+  <msg key="newer_msg">Newer</msg>
+  <msg key="newest">&lt;&lt; Newest</msg>
+  <msg key="no">No</msg>
+  <msg key="no_members_found">No members found</msg>
+  <msg key="no_messages_found">You don't have any messages here.</msg>
+  <msg key="no_subject">no subject</msg>
+  <msg key="normal">Normal</msg>
+  <msg key="of">Of</msg>
+  <msg key="older">Older &gt;</msg>
+  <msg key="older_msg">Older</msg>
+  <msg key="oldest">Oldest &gt;&gt;</msg>
+  <msg key="other_msg_reply">You are answering another message.</msg>
+  <msg key="print">Print</msg>
+  <msg key="range_messages_show">%first_row% -- %last_number% Of %total_messages%</msg>
+  <msg key="recipients">Recipients</msg>
+  <msg key="recipients_empty">Please specify at least one recipient.</msg>
+  <msg key="reply">Reply</msg>
+  <msg key="reply_all">Reply all</msg>
+  <msg key="save">Save</msg>
+  <msg key="save_info">Save</msg>
+  <msg key="save_sent_message">Save sent message</msg>
+  <msg key="search">Search</msg>
+  <msg key="send">Send</msg>
+  <msg key="send_to_all">Send to everyone</msg>
+  <msg key="sending">Sending</msg>
+  <msg key="sent">Sent</msg>
+  <msg key="show_details">Show details</msg>
+  <msg key="signature">Signature</msg>
+  <msg key="subject">Subject</msg>
+  <msg key="subject_empty">Send message without a subject?</msg>
+  <msg key="subject_mail">%user_name% has sent you a message in the community &quot;%community_name%&quot;</msg>
+  <msg key="sucsessful_create_folder">Sucsessful create folder</msg>
+  <msg key="to">To</msg>
+  <msg key="to_help">[i] If you know the name and/or last name of the user that sends the message, type it into the text field and will show to users who match the writing in this field</msg>
+  <msg key="today">Today</msg>
+  <msg key="trash">Trash</msg>
+  <msg key="view_messages">View messages</msg>
+  <msg key="write_message">Write message</msg>
+  <msg key="write_message_to">Writing message to</msg>
+  <msg key="yes">Yes</msg>
+</message_catalog>

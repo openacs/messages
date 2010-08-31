@@ -1,0 +1,9 @@
+drop sequence messages_msg_sequence;
+drop table  messages_recipients
+drop table messages_attachments;
+drop table messages_user_messages;
+drop index messages_user_messages_index;
+drop sequence messages_folders_sequence;
+drop table messages_folders;
+drop table messages_options;
+drop table messages_messages;
