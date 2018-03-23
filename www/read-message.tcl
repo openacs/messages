@@ -25,7 +25,7 @@ if { $permition_read == 0 } {
 
 ###########################################
 #get message ids around the message view
-#and set range messages, before or after message display acording to message view.
+#and set range messages, before or after message display according to message view.
 set msg_before [expr [lsearch $parents_ids $msg_id] - 2]
 set msg_after [expr [lsearch $parents_ids $msg_id] + 2]
 set parents_ids [lrange $parents_ids $msg_before $msg_after]
