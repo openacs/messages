@@ -18,7 +18,7 @@ ad_proc -public messages::send_mail {
     {-message ""}
     {-rel_types ""}
 } { 
-    Send mail to diferent users
+    Send mail to different users
 } {
     set community_name [dotlrn_community::get_community_name $community_id]
     set user_id [ad_conn user_id]
@@ -98,8 +98,8 @@ ad_proc -public messages::reply_mail {
     {-msg_id_old ""}
     {-attachment_ids ""}
     {-rel_types ""}
-} { 
-    Send reply, reply-all and forward mail to diferent users
+} {
+    Send reply, reply-all and forward mail to different users
 } {
     set message [list "$message" "text/html"]
     set community_name [dotlrn_community::get_community_name $community_id]
