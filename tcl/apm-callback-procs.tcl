@@ -17,7 +17,7 @@ namespace eval messages::apm {}
 ad_proc -public messages::apm::package_install {
 
 } {
-    Does the integration whith the notifications package.
+    Does the integration with the notifications package.
 } {
     db_transaction {
         #Create the conten types

@@ -155,7 +155,7 @@ db_multirow -extend { subject_mail date attachment_p new_p folder_name} messages
     append subject_mail $subject "-" [string_truncate -len 80 -ellipsis "..." " $content"]
     set cur_time [clock format [clock seconds] -format "%Y %m %d"]
     set sent_time_seconds [clock format [clock scan $sent_date_ansi] -format "%Y %m %d"]
-    #compare the sent date whith the current date and display the message according to the date.
+    #compare the sent date with the current date and display the message according to the date.
     if { [lindex $cur_time 0] > [lindex $sent_time_seconds 0]} {
         set date [lc_time_fmt $sent_date_ansi "%D"]
     } else {
