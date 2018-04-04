@@ -59,7 +59,7 @@ lappend elements contacts \
                 display_template { <if @messages.rel_type@ ne ""> \
                         <a href="#@messages.msg_id@a${folder_id}a${page_number}" style="background-color:#F06040;color:white;padding:2px;" onclick="read_message(@messages.msg_id@,$folder_id,$page_number)">@messages.rel_type@</a></if> } \
         ] \
-    attachmet_mail \
+    attachment_mail \
         [list html { align center style "font-size: smaller; width:3%"} \
             label "" \
                 display_template { <a href="#@messages.msg_id@a${folder_id}a${page_number}" onclick="read_message(@messages.msg_id@,$folder_id,$page_number)">\

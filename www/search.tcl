@@ -74,7 +74,7 @@ lappend elements contacts \
         [list html { align center style "font-size: smaller; width:5%"} \
             label "" \
                 display_template { <input type="button" value="@messages.folder_name@" href="#" onclick="read_message(@messages.msg_id@,@messages.folder_id@,$page_number)"> }] \
-    attachmet_mail \
+    attachment_mail \
         [list html { align center style "font-size: smaller; width:5%"} \
             label "" \
                 display_template { <a href="#" onclick="read_message(@messages.msg_id@,@messages.folder_id@,$page_number)">\
