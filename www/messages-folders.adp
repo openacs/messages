@@ -86,7 +86,7 @@
                         </span>
                     </span> 
                     <span>
-                        <span id="move_to" sytle="display:true;">
+                        <span id="move_to" style="display:true;">
                             <input  type="button" href="" onclick="show_div('fileMenu');return buttonClick(event, 'fileMenu');show_div('fileMenu');" value="#messages.move_to#  &darr;">
                     </span>
              </span>
