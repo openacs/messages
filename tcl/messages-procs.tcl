@@ -240,11 +240,11 @@ ad_proc -public messages::get_history_conversation {
     append not_folder_ids [messages::get_folder_id -folder_name "sent"] "," \
                       [messages::get_folder_id -folder_name "trash"]
     db_multirow messages get_history_conversation { *SQL* } {
-        set day_recive [lc_time_fmt $sent_date "%d %b, %Y" ]
-        set ansi_time "$day_recive - $time"
+        set day_receive [lc_time_fmt $sent_date "%d %b, %Y" ]
+        set ansi_time "$day_receive - $time"
         set msg_content [template::util::richtext::get_property contents $msg_content]
         append conversation "$blockquote_conversation_begin
-                    El $day_recive, a las $time, [acs_user::get_element -user_id $owner_id -element name] escribio: <br><br>
+                    El $day_receive, a las $time, [acs_user::get_element -user_id $owner_id -element name] escribio: <br><br>
                     $msg_content<br><br>"
         incr count_messages
     }
@@ -270,7 +270,7 @@ ad_proc -public messages::string_truncate_middle {
     {-len "100"}
     -string
 } {
-    cut middle part of a string in case it is to long copied from xotcl-request-monitor
+    cut middle part of a string in case it is too long copied from xotcl-request-monitor
 } {
     set string [string trim $string]
     if {[string length $string]>$len} {

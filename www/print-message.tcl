@@ -34,7 +34,7 @@ db_multirow -extend { contact_names ansi_time content} print get_data_msg { *SQL
         lappend contact_names $contact_name
     }
     set contact_names [join $contact_names ","]
-    set day_recive [lc_time_fmt $sent_date "%d %b, %Y" ]
-    set ansi_time "$day_recive - $time"
+    set day_receive [lc_time_fmt $sent_date "%d %b, %Y" ]
+    set ansi_time "$day_receive - $time"
     set content [template::util::richtext::get_property content $msg_content]
 }

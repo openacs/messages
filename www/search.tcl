@@ -65,7 +65,7 @@ set elements [list  msg_ids \
 lappend elements contacts \
             [list html { align left style "font-size: smaller; width:20%"} \
                 label [_ messages.from] \
-                display_template { <a href="#" onclick="read_message(@messages.msg_id@,@messages.folder_id@,$page_number)"> <if @messages.new_p@>\
+                display_template { <a href="#" onclick="read_message(@messages.msg_id@,@messages.folder_id@,$page_number)"> <if @messages.new_p;literal@ true>\
                                      <span id="new_p.@messages.msg_id@"><span id="new_p_style.@messages.msg_id@"  style="font-weight: bold;">@messages.contacts@ \
                                         <if @messages.folder_id@ ne 1> (@messages.number_conversation@) </if></span>\
                                     </if><else><span id="new_p_style.@messages.msg_id@" style="font-weight:;">@messages.contacts@ (@messages.number_conversation@)</span></else></a>} \
@@ -85,14 +85,14 @@ lappend elements contacts \
         [list html { align left style "font-size: smaller; width:65%"} \
             label [_ messages.subject] \
                 display_template { <a href="#" onclick="read_message(@messages.msg_id@,@messages.folder_id@,$page_number)">\
-                                    <if @messages.new_p@><span id="new_p_sub.@messages.msg_id@" style="font-weight: bold;">@messages.subject_mail@</span> \
+                                    <if @messages.new_p;literal@ true><span id="new_p_sub.@messages.msg_id@" style="font-weight: bold;">@messages.subject_mail@</span> \
                                    </if><else><span id="new_p_sub.@messages.msg_id@" style="font-weight:;">@messages.subject_mail@</span></else></a>} \
         ] \
     date \
         [list html { align left style "font-size: smaller;width:10%"} \
             label [_ messages.date] \
                 display_template { <a href="#" onclick="read_message(@messages.msg_id@,@messages.folder_id@,$page_number)">\
-                                    <if @messages.new_p@><span id="new_p_date.@messages.msg_id@" style="font-weight: bold;">@messages.date@</span> \
+                                    <if @messages.new_p;literal@ true><span id="new_p_date.@messages.msg_id@" style="font-weight: bold;">@messages.date@</span> \
                                     </if><else><span id="new_p_date.@messages.msg_id@" style="font-weight:;">@messages.date@</span></else></a>} \
         ]
 

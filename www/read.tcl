@@ -116,8 +116,8 @@ db_multirow -extend { rel_type_user to first_name_contacts name_user total_recip
     set contact_names [string range $contact_names 0 [expr [string length $contact_names] - 60]]
     set cur_time [clock format [clock seconds] -format "%Y %m %d"]
     set sent_time_seconds [clock format [clock scan $sent_date] -format "%Y %m %d"]]
-    set day_recive [lc_time_fmt $sent_date "%d %b, %Y" ]
-    set ansi_time "$day_recive - $time"
+    set day_receive [lc_time_fmt $sent_date "%d %b, %Y" ]
+    set ansi_time "$day_receive - $time"
     set msg_content [template::util::richtext::get_property contents $msg_content]
     if { [lindex $cur_time 0] > [lindex $sent_time_seconds 0]} {
         set date [lc_time_fmt $sent_date "%D"]
