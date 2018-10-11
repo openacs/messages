@@ -1,4 +1,4 @@
-<if @permition_read_p@ eq "f">false</if>
+<if @permition_read_p;literal@ false>false</if>
 <else>
     <input type="hidden" id="folder_id" value="@folder_id@">
     <input type="hidden" id="msg_id" value="@msg_id@">

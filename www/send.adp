@@ -1,4 +1,4 @@
-<if @reply_p@>
+<if @reply_p;literal@ true>
     <master src="/packages/messages/www/xinha-master">
     <input type="hidden" id="dialog_rol_set" value="0">    
 </if><else>
@@ -34,7 +34,7 @@
 <input type=hidden id="body_empty" value="#messages.body_empty#">
 <span style='display:none' id="history_conversation">@history_conversation;noquote@</span>
 <span style='display:none' id="signature">@signature;noquote@</span>
-<if @reply_p@>
+<if @reply_p;literal@ true>
     <div id=background style="background-color:#FFFFFF">
 </if>
 <else>
@@ -45,7 +45,7 @@
         <form id="compose_message" name="compose_message" enctype="multipart/form-data" action="@action_send@" method="POST">
             <formtemplate id="compose_message">
                 @rel_types_html;noquote@
-                <if @reply_p@ eq 0>
+                <if @reply_p;literal@ false>
                     <input type="hidden" id="total_attachment" name="total_attachment" value="0">
                     <input type="hidden" id="contacts_ids" name="contacts_ids" value="">
                     <input type="hidden" id="subject" name="subject" value="">
@@ -77,7 +77,7 @@
                             (new Image()).src='inbox/images/token_selected.gif';
                             (new Image()).src='inbox/images/token_hover.gif';
                             (new Image()).src='inbox/images/token_x.gif';
-                            <if @reply_p@ eq 0>
+                            <if @reply_p;literal@ false>
                                 var contacts = [@contacts_list;noquote@];
                             </if>
                             var typeahead = new Autocompleter.LocalAdvanced('autocomplete_input', 'autocomplete_populate', contacts, {
@@ -89,7 +89,7 @@
                         </script>
                         <label style="font-size:8pt">#messages.to_help#</label>
                         <br>
-                    <if @reply_p@ eq 0>
+                    <if @reply_p;literal@ false>
                         <br>
                         <input type=hidden id="recipients_empty" value="#messages.recipients_empty#">
                         <table width="100%" style="font-size:12px">
@@ -140,7 +140,7 @@
         </div>
     </div> 
     
-<if @reply_p@ eq 0>    
+<if @reply_p;literal@ false>    
     <div id="dialog2" class="yui-pe-content">
         <div class="bd">
             <div id="info_members_rols" "style="width:28em;height:30em;overflow:auto"> 
