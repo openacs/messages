@@ -1,7 +1,7 @@
   set ::xinha_dir /resources/acs-templating/xinha-nightly/
   set ::xinha_lang [lang::conn::language]
 
-  # We could add site wide Xinha configurations (.js code) into xinha_params
+  # We could add site-wide Xinha configurations (.js code) into xinha_params
   set xinha_params ""
 
   # Per call configuration
